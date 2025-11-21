@@ -166,3 +166,120 @@ body{
 .btn.zero{
     grid-column: span 2;
 }
+
+@media (max-width: 768px) {
+    .container{
+        width: 90vw;
+        max-width: 400px;
+        height: auto;
+        min-height: 600px;
+    }
+
+    .screan{
+        width: 85%;
+    }
+
+    .conversion-panel{
+        width: 85%;
+    }
+
+    .number-btn{
+        width: 85%;
+        height: auto;
+        aspect-ratio: 1 / 1.1;
+    }
+
+    .corner-btn{
+        top: 5px;
+        right: 5px;
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+/* Responsywność dla telefonów */
+@media (max-width: 480px) {
+    body{
+        padding: 10px;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 380px;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .screan{
+        width: 100%;
+        height: 80px;
+        padding: 10px 15px;
+    }
+
+    .previous-display{
+        font-size: 16px;
+        min-height: 20px;
+    }
+
+    .display{
+        font-size: 36px;
+    }
+
+    .conversion-panel{
+        width: 100%;
+        padding: 8px;
+    }
+
+    .system-btn{
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .number-btn{
+        width: 100%;
+        gap: 8px;
+        padding: 8px;
+    }
+
+    .btn{
+        font-size: 20px;
+        min-height: 60px;
+    }
+
+    .corner-btn{
+        top: 5px;
+        right: 5px;
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+}
+
+/* Responsywność dla bardzo małych telefonów */
+@media (max-width: 360px) {
+    .container{
+        height: auto;
+        min-height: 550px;
+    }
+
+    .screan{
+        height: 70px;
+    }
+
+    .display{
+        font-size: 32px;
+    }
+
+    .previous-display{
+        font-size: 14px;
+    }
+
+    .btn{
+        font-size: 18px;
+        min-height: 50px;
+    }
+
+    .system-btn{
+        padding: 6px;
+        font-size: 12px;
+    }
+}
