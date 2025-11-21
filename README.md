@@ -1,4 +1,4 @@
-# Kalkulator - Projekt DamianB
+# Projekt Kalkulator
 
 Prosty kalkulator webowy z obsługą konwersji systemów liczbowych.
 
