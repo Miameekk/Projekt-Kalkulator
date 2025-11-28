@@ -1,6 +1,9 @@
 # Projekt Kalkulator
 
-Prosty kalkulator webowy z obsługą konwersji systemów liczbowych.
+Zaawansowany kalkulator webowy z obsługą konwersji systemów liczbowych, historią obliczeń i trybem ciemnym/jasnym.
+
+## Ważne informacje
+- Kalkulator najlepiej odpalić przez wtyczkę Live Server w VS Code
 
 ## Funkcje
 
@@ -21,8 +24,24 @@ Prosty kalkulator webowy z obsługą konwersji systemów liczbowych.
 ### Dodatkowe funkcje
 - Wyświetlanie poprzedniej operacji
 - Zaokrąglanie wyników do 3 miejsc po przecinku
-- Obsługa łańcuchowych obliczeń (np. 2 + 3 + 4)
 - Czyszczenie kalkulatora (C)
+- Obsługa klawiszy klawiatury
+- Historia obliczen z możliwoscia wyczyszczenia (Historia zapisywana w local storage)
+- Responsywnosc dla wielu urzadzeń
+
+## Aktualizacje
+
+### 22.11.2025
+- (/) Poprawiono style
+- (+) Dodano przeliczanie na systemy liczbowe
+- (+) Dodano Ciemny jasny motyw z mozliwoscia jego zmiany
+
+### 28.11.2025
+
+- (/) Zablokowano mozliwosc wpisywania kropki jako pierszego znaku
+- (+) Historie obliczen
+- (/) Poprawiono responywnosc
+
 
 ## Struktura plików
 ```
@@ -37,4 +56,4 @@ projekt/
 ```
 
 ## Autor
-Damian Bukowiec
+Damian Bukowiec 
