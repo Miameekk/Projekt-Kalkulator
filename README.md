@@ -16,31 +16,63 @@ Zaawansowany kalkulator webowy z obsługą konwersji systemów liczbowych, histo
 - Procent (%)
 
 ### Konwersja systemów liczbowych
-- **DEC** - system dziesiętny
-- **BIN** - system binarny
-- **OCT** - system ósemkowy
-- **HEX** - system szesnastkowy
+- **DEC** - system dziesiętny (0-9)
+- **BIN** - system binarny (0-1)
+- **OCT** - system ósemkowy (0-7)
+- **HEX** - system szesnastkowy (0-9, A-F)
+
+### Historia obliczeń
+- Automatyczne zapisywanie wszystkich operacji
+- Przechowywanie w localStorage (zachowane po zamknięciu przeglądarki)
+- Przeglądanie wykonanych obliczeń
+- Przycisk do czyszczenia historii
+- Przewijalna lista z custom scrollbarem
+
+### Motywy
+- **Dark Mode** - ciemny motyw (domyślny)
+- **Light Mode** - jasny motyw
+- Przełączanie przyciskiem 🌞/🌚
+
+### Obsługa klawiatury
+- Cyfry `0-9` - wpisywanie liczb
+- `.` lub `,` - kropka dziesiętna
+- `+`, `-`, `*`, `/` - operatory matematyczne
+- `Enter` lub `=` - obliczanie wyniku
+- `Escape` lub `C` - czyszczenie
+- `Backspace` - usuwanie ostatniej cyfry
+- `%` - procent
 
 ### Dodatkowe funkcje
-- Wyświetlanie poprzedniej operacji
+- Wyświetlanie poprzedniej operacji na górnym wyświetlaczu
 - Zaokrąglanie wyników do 3 miejsc po przecinku
+- Obsługa łańcuchowych obliczeń (np. 2 + 3 + 4)
+- Blokada kropki jako pierwszego znaku (automatycznie dodaje `0.`)
 - Czyszczenie kalkulatora (C)
-- Obsługa klawiszy klawiatury
-- Historia obliczen z możliwoscia wyczyszczenia (Historia zapisywana w local storage)
-- Responsywnosc dla wielu urzadzeń
+- Pełna responsywność dla wszystkich urządzeń
+- Custom scrollbar pasujący do kolorystyki
 
 ## Aktualizacje
 
 ### 22.11.2025
-- (/) Poprawiono style
-- (+) Dodano przeliczanie na systemy liczbowe
-- (+) Dodano Ciemny jasny motyw z mozliwoscia jego zmiany
+- 🎨 Poprawiono style i wygląd
+- ➕ Dodano przeliczanie na systemy liczbowe (DEC, BIN, OCT, HEX)
+- 🌓 Dodano ciemny/jasny motyw z możliwością zmiany
 
 ### 28.11.2025
+- 🚫 Zablokowano możliwość wpisywania kropki jako pierwszego znaku
+- 📜 Dodano historię obliczeń z zapisem w localStorage
+- 📱 Poprawiono responsywność dla wszystkich urządzeń
+- ⌨️ Dodano pełną obsługę klawiatury
+- 🎨 Dodano custom scrollbar
+- 🔧 Poprawiono stabilność i wydajność
 
-- (/) Zablokowano mozliwosc wpisywania kropki jako pierszego znaku
-- (+) Historie obliczen
-- (/) Poprawiono responywnosc
+## Responsywność
+Kalkulator dostosowuje się do:
+- 🖥️ Dużych ekranów (1200px+)
+- 💻 Laptopów (1024px)
+- 📱 Tabletów (768px)
+- 📱 Telefonów (480px)
+- 📱 Małych telefonów (360px)
 
 
 ## Struktura plików

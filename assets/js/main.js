@@ -9,6 +9,9 @@ const historiaContainer = document.querySelector('.historia-container');
 const historiaList = document.querySelector('.historia-list');
 const closeHistoriaBtn = document.querySelector('.close-historia-btn');
 const clearHistoriaBtn = document.querySelector('.clear-historia-btn');
+const message = document.querySelector('.message-container');
+const closeMessageBtn = document.querySelector('.close-message-btn');
+const messageBtn = document.querySelector('.message-btn');
 
 
 let darkMode = true;
@@ -48,6 +51,16 @@ function wyczyscHistorie() {
     localStorage.removeItem('historiaKalkulatora');
     wyswietlHistorie();
 }
+// Obsługa przycisku zamykania komunikatu powitalnego
+closeMessageBtn.addEventListener('click', () => {
+    message.style.display = 'none';
+});
+
+// Obsługa przycisku otwierania komunikatu powitalnego
+messageBtn.addEventListener('click', () => {
+    message.style.display = 'block';
+});
+
 
 // Obsługa przycisku historii
 historiaBtn.addEventListener('click', () => {
