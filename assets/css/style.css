@@ -48,8 +48,7 @@ body{
 .message-container{
     z-index: 10;
     position: fixed;
-    width: 90%;
-    max-width: 450px;
+    max-width: 500px;
     overflow-y: auto;
     max-height: 70vh;  
     background-color: #333;
@@ -217,7 +216,7 @@ body{
     visibility: hidden;
     position: fixed;
     width: 90%;
-    max-width: 450px;
+    max-width: 500px;
     overflow-y: auto;
     max-height: 70vh;  
     animation: wjazd 0.5s ease forwards;

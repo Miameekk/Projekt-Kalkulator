@@ -87,13 +87,14 @@ clearHistoriaBtn.addEventListener('click', () => {
         styleBtn.textContent = '🌞';
         styleBtn.style.backgroundColor = '#f0e68c';
         const container = document.getElementById('container');
-        container.style.border = '2px solid var(--bgcolorbtn)';
+        container.style.border = 'border: 2px solid var(--color);';
     } else {
         body.classList.remove('dark-mode');
         body.classList.add('light-mode');
         styleBtn.textContent = '🌚';
         styleBtn.style.backgroundColor = '#333';
         const container = document.getElementById('container');
+        container.style.border = 'border: 2px solid var(--color)';
     }
  })
 
